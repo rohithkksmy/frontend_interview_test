@@ -16,7 +16,7 @@ elixir(function (mix) {
         .copy('bower_components/bootstrap/dist/fonts', 'public/fonts')
 
         // sass
-        .sass('mcmakler.scss')
+        .sass('style.scss')
 
         // angular
         .angular([
