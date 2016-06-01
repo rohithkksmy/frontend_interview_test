@@ -7,12 +7,20 @@
 - run `./node_modules/.bin/bower install` to install bower dependencies
 - run `gulp` to build the project with all needed dependencies
 
+## WHATS INCLUDED?
+- Bootstrap (3.x) + css, js, fonts
+- jQuery (2.x)
+- AngularJS (1.5.x) + ui-route, resource, animate, aria
+- lodash (4.x)
+
 ## IMPORTANT
 - don't change the build script. Its only allowed if your willing to use another css framework
 - To re-build the project run `gulp`
 - To watch file changes run `gulp watch`
 - please stick to the test structure
 - everything what you should need is already included
+- you will find CSS/JS und `/resources`
+- you will find main template `index.html` under `/public`
 - concentrate on at least one part.
 - there will be no bonus points if A or B is NOT done.
 
