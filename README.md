@@ -19,10 +19,10 @@
 - To watch file changes run `gulp watch`
 - please stick to the test structure
 - everything what you should need is already included
-- you will find CSS/JS und `/resources`
-- you will find main template `index.html` under `/public`
+- CSS/JS is located under `/resources`
+- main template `index.html` is located under `/public`
 - concentrate on at least one part.
-- there will be no bonus points if A or B is NOT done.
+- there will be `no bonus points` if A or B is `not` done.
 
 ## PART A: HTML + CSS
 
