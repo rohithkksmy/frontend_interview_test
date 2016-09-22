@@ -1,5 +1,4 @@
 # FRONT-END TEST (PRACTICAL)
-*Estimated time required: 3 hours.*
 
 ## BEFORE YOU START
 - make sure you have npm on your dev machine
