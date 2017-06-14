@@ -25,23 +25,16 @@
 
 ## PART A: HTML + CSS
 
-1. Style a form using the style guide (test_style_guide_example.png).
-1. The form must contain:
-  * 4x text fields (Street, House Number, Postal Code, City)
-  * 2x radio choice buttons (any option)
-  * 1x checkbox (any option)
-  * 1x “save” button
-1. Style each form element consistently and beautifully. Native appearances are not permitted.
+![Screen](https://raw.githubusercontent.com/OskHa/frontend_interview_test/master/fe_test_example_screen.png)
+
+1. Implement the given screen (fe_test_example_screen.png).
+1. Style each element consistently and beautifully.
 1. Leave comments where you were not sure how to properly proceed (had problems or time limitations)
 
 ## PART B: Javascript
 
-1. When the “save” button is clicked,
-  * Make a request to the Google Maps Geocode API, sending the address from the form and retrieving the location’s latitude and longitude.
-  * Show a warning message if the address is invalid, using animations.
-  * Show a similar success message if everything went well.
-  * If successful, use motion to display a message in the page that reads: “The coordinates for this address are: {{lat}}, {{lng}}”
-1. Implement the geocode functionality such that it can be reused, even without this form, even in a completely different form (for example: it accepts an address object, and returns the same object with two new properties: `successful` (boolean), and `location` (object).
+1. Make a request to https://api.mcmakler.de/v1/advertisements
+1. List the first 10 entries
 1. Leave comments where you were not sure how to properly proceed (or had time limitations)
 
 ## BONUS POINTS
