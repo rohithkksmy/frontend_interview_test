@@ -2,7 +2,7 @@
 
 This is a simple front-end code challenge created to serve two purposes:
 
-1. Show off your skillz,
+1. Show off your skills,
 1. Give us a better understanding of your skills.
 
 ## The Task
