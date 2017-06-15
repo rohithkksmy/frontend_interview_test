@@ -29,8 +29,13 @@ The programming challenge exists in 2 parts:
 
 ## Bonus Points
 
+* Clean code!
 * Knowledge of application flow.
 * Knowledge of modern best practices/coding patterns.
 * Demonstration of good state management.
 * Usage of frameworks/supersets.
+* Pixel perfection.
+* USE A FAVICON!
 * Componential thinking.
+* Usage of linters.
+* Git hooks.
