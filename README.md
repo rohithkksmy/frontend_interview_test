@@ -1,8 +1,8 @@
-# Front-End Code Challenge
+# Front-End Interview Test
 
 This is a simple front-end code challenge created to serve two purposes:
 
-1. Show off your skills,
+1. Show off your skillz,
 1. Give us a better understanding of your skills.
 
 ## The Task
@@ -15,13 +15,13 @@ The programming challenge exists in 2 parts:
 
 ![Screen](https://raw.githubusercontent.com/OskHa/frontend_interview_test/master/fe_test_example_screen.png)
 
-1. Create a layout based on the given screen (fe_test_example_screen.png).
-1. Style the layout consistently and beautifully, adhering as closely to the design as possible.
+* Create a layout based on the given screen (fe_test_example_screen.png).
+* Style the layout consistently and beautifully, adhering as closely to the design as possible.
 
 ### PART B: Javascript
 
-1. Consume our public API @ https://api.mcmakler.de/v1/advertisements to retrieve a list of advertisements of vacant apartments.
-1. Display the first 10 advertisements in the HTML + CSS layout created in step A, sticking to the layout, placing data where it fits.
+* Consume our public API @ https://api.mcmakler.de/v1/advertisements to retrieve a list of advertisements of vacant apartments.
+* Display the first 10 advertisements in the HTML + CSS layout created in step A, sticking to the layout, placing data where it fits.
 
 ## Additional Instructions
 
@@ -35,7 +35,6 @@ The programming challenge exists in 2 parts:
 * Demonstration of good state management.
 * Usage of frameworks/supersets.
 * Pixel perfection.
-* USE A FAVICON!
 * Componential thinking.
 * Usage of linters.
 * Git hooks.
