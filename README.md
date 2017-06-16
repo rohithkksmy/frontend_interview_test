@@ -31,7 +31,7 @@ The programming challenge exists in 2 parts:
 
 ## Bonus Points
 
-* Jest.
+* Test.
 * Clean code!
 * Knowledge of application flow.
 * Knowledge of modern best practices/coding patterns.
