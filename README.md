@@ -28,6 +28,8 @@ The programming challenge exists in 2 parts:
 ## Additional Instructions
 
 * Leave comments where you were not sure how to properly proceed.
+* No pull requests
+* ES6 and above
 
 ## Bonus Points
 
