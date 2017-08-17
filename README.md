@@ -23,7 +23,7 @@ The programming challenge exists in 2 parts:
 
 * Consume our public API @ https://api.mcmakler.de/v1/advertisements to retrieve a list of advertisements of vacant apartments.
 * Display the first 10 advertisements in the HTML + CSS layout created in step A, sticking to the layout, placing data where it fits.
-* **NOTE:** You are free to use any framework you wish, or do it VanillaJS style. *Bonus points for an explanation of your choice.*
+* **NOTE:** You are free to use any framework you wish, or do it VanillaJS style. *Brief explanation of your choice.*
 
 ## Additional Instructions
 
@@ -33,7 +33,7 @@ The programming challenge exists in 2 parts:
 
 ## Bonus Points
 
-* Test.
+* Tests
 * Clean code!
 * Knowledge of application flow.
 * Knowledge of modern best practices/coding patterns.
@@ -43,3 +43,4 @@ The programming challenge exists in 2 parts:
 * Componential thinking.
 * Usage of linters.
 * Git hooks.
+* Usage of Material Design concepts
