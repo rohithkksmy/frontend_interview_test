@@ -27,7 +27,10 @@ The programming challenge exists in 2 parts:
 
 ## Additional Instructions
 
+* Fork this repository
+* After you're done, provide us the link to your repository.
 * Leave comments where you were not sure how to properly proceed.
+* Implementations without a README will be automatically rejected.
 * No pull requests
 * ES6 and above
 
