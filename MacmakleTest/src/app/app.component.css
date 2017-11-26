@@ -1,0 +1,88 @@
+.card-container {
+    width:100%;
+}
+
+.item-card {
+    padding: 0;
+    margin:4%;    
+}
+
+.item-card-contents {
+    height:170px;
+    font-size:12px;
+}
+
+.item-card-address {
+    word-break: break-word;
+    padding: 10% 12% 10% 12%;
+    height: 131px;
+}
+
+.item-card-street {
+    margin-right: 5px;
+}
+
+.item-card-city {
+    margin-left: 2px;
+}
+.item-card-address p{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.item-card-room {
+    font-size:10px;
+    COLOR: #CACACA;
+    FONT-WEIGHT: BOLD;
+}
+.item-card-image {
+    position: relative;
+}
+
+.item-card-rent-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px;
+    width: 50px;
+    color: #BABABA;
+    background-color: white;
+    font-size:11px;
+    font-weight: bold;
+}
+
+.item-loading-div, .item-loading-error {
+    height: 200px;
+    text-align: center;
+    color: #636c72;
+    padding-top: 50px;
+}
+
+.item-loading-div {
+    font-size: 40px;
+}
+
+.item-loading-error {
+    font-size: 32px;
+}
+
+.item-card-ad-container {
+    padding-left: 11%;
+}
+
+.item-card-ad-price {
+    float: left;
+    width:90px;
+    color:black; 
+    font-weight:bold;
+}
+
+.item-card-room-container {
+    color:#808080;
+    float:left; 
+    font-weight:625;
+}
+
+.item-card-differ {
+    color:#EBEBEB;
+}
+

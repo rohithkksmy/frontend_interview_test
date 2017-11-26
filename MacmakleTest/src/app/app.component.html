@@ -1,0 +1,45 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<app-header-comp></app-header-comp>
+<app-section-comp></app-section-comp>
+<div *ngIf = "!loaderFlag" class = "item-loading-div">
+    Loading Contents.......
+    <img src="../assets/Images/animated_spinner.gif" height="50" width="50">
+</div>
+<div *ngIf = "loaderFlag" class="album text-muted">
+  <div class="container">                                                                   
+    <div class="row">
+      <div *ngFor="let coin of resultArray" class="card item-card col-md-3">
+        <div class = "item-card-image">
+            <img 
+            data-src="holder.js/100px280/thumb" 
+            alt="100%x280" 
+            style="height: 175px; width: 100%; display: block;" 
+            src="{{coin.advertisementAssets[0].advertisementThumbnails.inventory_m.url}}" 
+            data-holder-rendered="true">
+            <button class ="item-card-rent-button btn">Mieten</button>
+        </div>            
+        <div class = "item-card-contents">
+            <div class = "item-card-address"><p>{{ coin.title }}</p>
+            <div class= "item-card-room">
+              <span>{{ coin.realestateSummary.address.postalCode }}</span>
+              <span class = "item-card-street">{{ coin.realestateSummary.address.street }}</span>/
+              <span class = "item-card-city">{{ coin.realestateSummary.address.city }}</span> 
+            </div>
+          </div>
+            <div class = "item-card-ad-container">
+              <div class = "item-card-ad-price" >{{ coin.advertisementPrice.sellPrice }} &euro;</div>
+              <div class = "item-card-room-container">
+                <span class = "item-card-street">{{ coin.realestateSummary.numberOfRooms }} Zimmer</span>
+                <span class = "item-card-differ"> |</span>
+                <span class = "item-card-city">ab {{ coin.realestateSummary.space }} m<sup>2</sup></span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf = "!erroFlag" class = "item-loading-error">
+  An Error Occured While Loading the contents Please Contact Administrator !!!
+</div>
+<app-footer-comp></app-footer-comp>
