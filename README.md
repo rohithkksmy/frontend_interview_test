@@ -1,6 +1,6 @@
 
 
-#MacMakler Test
+# MacMakler Test
 
 The Project has been developer by Using `ANGUlAR 4 HTML/CSS, Bootstrap` using `Angular Cli`. The bootstrap links has been included in main Html file. 
 
@@ -8,10 +8,10 @@ The Project has been developer by Using `ANGUlAR 4 HTML/CSS, Bootstrap` using `A
 
 Minimum requirements `Need node 6.9.x and npm 3.x.x` inorder for the installation
 
-1.Clone the repository
-2.Do `npm install`
-3.After completing it type ng serve and we can see the server running in `localhost:4200`
-4`ng-build` can be used inorder to build the project and run in production mode
+* Clone the repository
+* Do `npm install`.
+* After completing it type ng serve and we can see the server running in `localhost:4200`.
+* `ng-build` can be used inorder to build the project and run in production mode.
 
 ## linting 
 
